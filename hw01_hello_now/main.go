@@ -14,6 +14,6 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("current time: " + time.Now().Round(time.Nanosecond).String())
-	fmt.Println("exact time: " + exactTime.Round(time.Nanosecond).String())
+	fmt.Println("current time:", time.Now().Round(time.Nanosecond).String())
+	fmt.Println("exact time:", exactTime.Round(time.Nanosecond).String())
 }
